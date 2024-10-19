@@ -6,7 +6,7 @@
 int factorial(int n) {
     return (n <= 1) ? 1 : n * factorial(n - 1);
 }
-
+//
 int main() {
     std::map<int, int> standard_map;
     for (int i = 0; i < 10; ++i) {
